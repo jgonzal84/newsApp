@@ -15,5 +15,5 @@ var collections = ["scraperData"];
 // Hook Mongojs configuration to the db variable
 var db = mongojs(databaseUrl, collections); 
 db.on("error", function (error) {
-    conaole.log ("Yall fucking suck")
+    console.log ("Yippy!")
 })
