@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include ../partials/head %>
+
+<body>
+    <div id="">
+        <h1>Project Puff</h1>
+        <div id="">
+            <% results.forEach(function(wapo_article) { %>
+            <%- include('../partials/wapo_article', wapo_article); %>
+            <% }); %>
+            
+        </div>
+    </div>
+    <% include ../partials/script %>
+</body>
+
+</html>
